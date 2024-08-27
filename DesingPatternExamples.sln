@@ -21,7 +21,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{B2910F46-8D02-4D7B-A807-B758B9E780B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{D86C48B4-7BEC-4272-B283-ABF4DFBFA838}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{D86C48B4-7BEC-4272-B283-ABF4DFBFA838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{CCB53CAB-B1BB-4F5B-B364-07A0C1353C3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{D86C48B4-7BEC-4272-B283-ABF4DFBFA838}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D86C48B4-7BEC-4272-B283-ABF4DFBFA838}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D86C48B4-7BEC-4272-B283-ABF4DFBFA838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCB53CAB-B1BB-4F5B-B364-07A0C1353C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB53CAB-B1BB-4F5B-B364-07A0C1353C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB53CAB-B1BB-4F5B-B364-07A0C1353C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB53CAB-B1BB-4F5B-B364-07A0C1353C3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +79,7 @@ Global
 		{A21F352F-9C71-4D1F-8D28-BD25BBEFFEE0} = {0C5E6FED-7D1C-443A-978A-7D85464E2EFB}
 		{E8D25719-439B-4DBB-909B-DE1A2F0C8970} = {B2910F46-8D02-4D7B-A807-B758B9E780B3}
 		{D86C48B4-7BEC-4272-B283-ABF4DFBFA838} = {B2910F46-8D02-4D7B-A807-B758B9E780B3}
+		{CCB53CAB-B1BB-4F5B-B364-07A0C1353C3E} = {B2910F46-8D02-4D7B-A807-B758B9E780B3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B441C72D-6323-4ED4-9D67-1B05CD06CD97}
