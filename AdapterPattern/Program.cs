@@ -6,7 +6,7 @@ var jsonKutuphanesi = new JsonKutuphanesi();
 
 // Adapter oluşturuluyor
 var xmlToJsonAdapter = new XmlToJsonAdapter();
-//dış servisten alındığı varsayılan json dosyasını string veriye aktarma
+//dış servisten alındığı varsayılan xml dosyasını string veriye aktarma
 string xml = xmlKutuphanesi.XmlVerisiAl();
 
 var jsonData = xmlToJsonAdapter.XmlToJson(xml);
