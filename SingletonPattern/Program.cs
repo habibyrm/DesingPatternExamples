@@ -4,12 +4,10 @@
     static void Main(string[] args)
     {
         Console.WriteLine("Program başlıyor.\n");
-        
         //Singelton1
         Console.WriteLine("Singelton1 çalışıyor.");
         Singelton1 s1 = Singelton1.Instance;
         Console.WriteLine("\n");
-        
         //Singelton2
         Console.WriteLine("Singelton2 çalışıyor.");
         Parallel.Invoke(
@@ -17,9 +15,7 @@
             () => AccessSingleton1(),
             () => AccessSingleton1()
         );
-        Console.WriteLine("\n");
-        
-        
+        Console.WriteLine("\n");      
         // Singelton3
         Parallel.Invoke(
             () => AccessSingleton(),
@@ -27,7 +23,6 @@
             () => AccessSingleton()
         );
         Console.WriteLine("\n");
-
         // Singelton4
         Parallel.Invoke(
             () => AccessSingleton2(),

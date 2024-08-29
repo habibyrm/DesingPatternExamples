@@ -11,16 +11,8 @@ namespace SingletonPattern
         private static Singelton1 instance = new Singelton1();
         // Özel bir yapıcı (constructor) böylece sınıf dışından nesne oluşturulamaz.
         private Singelton1()
-        {
-            Console.WriteLine("Ben oluştum.Singelton1");
-        }
-
+        { Console.WriteLine("Ben oluştum.Singelton1");}
         public static Singelton1 Instance
-        { get 
-            {
-                return instance; 
-            } 
-        }
+        { get {return instance;}}
     }
-
 }
