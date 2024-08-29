@@ -2,7 +2,7 @@
 
 namespace BridgePattern.Report
 {
-    public class Report
+    public abstract class Report
     {
         public IReportFormat ReportFormat { get; set; }
 
