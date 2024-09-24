@@ -2,8 +2,8 @@
  * Her ikisi de soyutlamalara (interfacelere veya abstract class'lara) bağımlı olmalıdır.
  * Soyutlamalar, detaylara bağımlı olmamalıdır. Detaylar, soyutlamalara bağımlı olmalıdır.*/
 // Bir web programının belirli bir veritabanına bağımlı kalması sorununu dependency inversion ile çözme.
-
 using DependencyInversion.GoodExample;
+
 
 IProductRepository productSqlRepository = new SqlProductRepository();
 IProductRepository productPostgreRepository = new PostgreSqlProductRepository();
